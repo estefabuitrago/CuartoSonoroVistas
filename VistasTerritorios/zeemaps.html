@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href= "index.html">
+                <img src=img/loogo.png alt="" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toogle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>  
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Territorios Sonoros
+                        </button>
+                        <ul class="dropdown-menu">
+                            
+                                <li class="nav-item"><a class="nav-link" href="#">Acerca del proyecto</a></li>  
+                                <li class="nav-item"><a class="nav-link" href="zeemaps.html">zeemaps</a></li>  
+                                <li class="nav-item"><a class="nav-link" href="storyMaps.html">Storymaps</a></li>  
+                                
+        
+                        </ul>
+                    </div>  
+                  <li class="nav-item"><a class="nav-link" href="#">Acerca de nosotros</a></li>  
+                  <li class="nav-item"><a class="nav-link" href="#">noticias</a></li>  
+                 
+ 
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--mapa-->
+    <div class="map">
+        <div class="container" id="zeeMap">
+            <iframe src="https://www.zeemaps.com/view?group=4042244&x=-75.483726&y=6.056056&z=4" class="w-100 pt-4" height="600px" id="map">
+
+            </iframe>
+        </div>
+       
+    </div>
+
+     <!--footer-->
+     <div class="container-fluid w-100 pt-5">
+        <div class="row pt-5 bg-dark text-white">
+
+            <div class="col-xs12 col-md-6 col-lg-3">
+                <p class="h3">Cuarto Sonoro</p>
+            </div>
+            <div class="col-xs12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">links</p>
+                <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="index.html">Inicio</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="usuarios.html">Acerca de nosotros</a>
+                </div>
+                <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="proveedores.html">Noticias</a>
+                </div>
+            </div>
+            <div class="col-xs12 col-md-6 col-lg-3">
+                <p class="h5">información</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Terminos y Condiciones</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Privacidad</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Acerca de Nosotros</a>
+                    </div>
+            </div>
+               
+            <div class="col-xs12 col-md-6 col-lg-3">
+                <p class="h5">Contacto</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">PQRS</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Correo</a>
+                    </div>
+            </div>
+            <div class="col-xs-12 pt-4">
+                <p class="text-white text-center">Copyright - All rights reserved © 2022</p>
+            </div>         
+
+        </div>
+
+    <!--sscript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
