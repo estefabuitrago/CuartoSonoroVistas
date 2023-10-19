@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuarto sonoro</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/global-style.css">
+
+</head>
+
+<body>
+    <!-- Incluye el navbar -->
+    <!-- <object data="./layout/nav.html" type="text/html"></object> -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="img/logo.png" alt="logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toogle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item">
+                        <select class="form-select" onchange="window.location.href=this.value;">
+                            <option value="#">Territorios sonoros</option>
+                            <option value="acerca-del-proyecto.html">Acerca del proyecto</option>
+                            <option value="zeemaps.html">zeemaps</option>
+                            <option value="storyMaps.html">Storymaps</option>
+                        </select>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">¿Quienes somos?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Noticias</a></li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
