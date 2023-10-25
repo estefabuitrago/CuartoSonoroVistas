@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuarto sonoro</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/global-style.css">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!-- Incluye el navbar -->
+    <!-- <object data="./layout/nav.html" type="text/html"></object> -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="img/logo.png" alt="logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toogle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item">
+                        <select class="form-select" onchange="window.location.href=this.value;">
+                            <option value="#">Territorios sonoros</option>
+                            <option value="proyect.html">Acerca del proyecto</option>
+                            <option value="zeemaps.html">zeemaps</option>
+                            <option value="storyMaps.html">Storymaps</option>
+                        </select>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">¿Quienes somos?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Noticias</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--mapa-->
+    <div class="container">
+
+        <h1 class="title">ZeeMaps</h1>
+        <h4>Explora nuestro Mapa Interactivo</h4>
+        <div class="container" id="zeeMap">
+            <iframe src="https://www.zeemaps.com/view?group=4042244&x=-75.483726&y=6.056056&z=4" class="w-100 pt-4"
+                height="600px" id="map">
+
+            </iframe>
+        </div>
+
+    </div>
+
+    <!-- JavaScript Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
